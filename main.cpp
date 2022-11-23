@@ -24,7 +24,7 @@ int main() {
 			files.push_back(entry.path());
 	}
 	catch(...) {
-		MessageBoxA(GetForegroundWindow(), "Incorrect path", "RDI", MB_OK);
+		MessageBoxA(GetForegroundWindow(), "Incorrect path", "RDW", MB_OK);
 	}
 	srand(time(NULL));
 	int a = rand() % files.size();
